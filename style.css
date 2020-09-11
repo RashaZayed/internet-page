@@ -7,26 +7,23 @@
   height: 900px;
   margin: 0 auto;
   box-sizing: border-box;
-  background-image:linear-gradient( #efefef,white);
+  background-image: linear-gradient(#efefef, white);
 }
 #header {
   height: 150px;
   background-color: white;
- 
 }
-#header >h1 {
-    font-size: 40px;
-    font-weight: normal;
-    font-family: sans-serif;
+#header > h1 {
+  font-size: 40px;
+  font-weight: normal;
+  font-family: sans-serif;
 }
-#header >h2 {
+#header > h2 {
   color: white;
   background-color: #3a74a5;
   height: 40px;
   padding: 10px;
   font-size: 35px;
-  
- 
 }
 
 #header img {
@@ -43,7 +40,6 @@
 #side-bar {
   width: 180px;
   padding-top: 10px;
-  
 }
 #span-internet {
   color: red;
@@ -51,33 +47,33 @@
 .internet {
   color: #3a74a5;
 }
-#side-bar > p , #side-bar > h4{
+#side-bar > p,
+#side-bar > h4 {
   margin: 5px;
   font-weight: bold;
-  
 }
-#side-bar >p {
-    font-size:13px;
-    padding-top: 5px;
-    padding-bottom: 10px;
+#side-bar > p {
+  font-size: 13px;
+  padding-top: 5px;
+  padding-bottom: 10px;
 }
 
 #video {
   background-color: #3a74a5;
   margin-bottom: 2px;
-  width:180px;
-  height:30px;
+  width: 180px;
+  height: 30px;
   border-radius: 10px;
 }
 #resources {
   background-color: #ed9629;
   margin-bottom: 10px;
-  width:180px;
-  height:30px;
+  width: 180px;
+  height: 30px;
   border-radius: 10px;
 }
-.buttons>hr {
-    margin: 15px 0px 15px 0px;
+.buttons > hr {
+  margin: 15px 0px 15px 0px;
 }
 #ads {
   width: 180px;
@@ -94,7 +90,6 @@
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 5px;
   font-size: 20px;
- 
 }
 #ads > img {
   width: 75px;
@@ -102,7 +97,7 @@
 #ads > input {
   background-color: #15c5df;
   width: 150px;
-  height:30px;
+  height: 30px;
   border-radius: 5px;
   color: white;
 }
@@ -110,28 +105,23 @@
 #sub-title {
   display: inline-block;
   vertical-align: top;
-  
 }
 #sub-title {
   width: 750px;
   height: 25px;
-  padding-left:15px;
+  padding-left: 15px;
   margin-bottom: 8px;
-  
- 
 }
-
 
 #dns > img {
   width: 20px;
 }
 #contacts {
   margin-left: 400px;
-  
 }
 #contacts > img {
   width: 30px;
-  margin-right:10px;
+  margin-right: 10px;
   margin-bottom: 10px;
 }
 
@@ -140,11 +130,11 @@
   display: inline-block;
 }
 #phone-number {
-    margin-top:0;
-    padding-top:0;
-    font-weight: normal;
+  margin-top: 0;
+  padding-top: 0;
+  font-weight: normal;
 }
-    
+
 #dns,
 #contacts {
   display: inline-block;
@@ -161,39 +151,38 @@
 #side-bar,
 #main-content {
   display: inline-block;
-  
 }
 #main-content {
   width: 700px;
   height: 700px;
   margin-top: 10px;
   position: absolute;
-  top:225px;
-  left:380px;
-  margin-left:15px;
+  top: 225px;
+  left: 380px;
+  margin-left: 15px;
 }
 #server {
   width: 650px;
-  padding:10px;
-  
+  padding: 10px;
 }
 #server > img {
   text-align: center;
   width: 200px;
-  margin-left:140px;
+  margin-left: 140px;
 }
-#server ul li, #process ol li{
-    margin:5px 10px 10px 40px;
+#server ul li,
+#process ol li {
+  margin: 5px 10px 10px 40px;
 }
 .high-light {
   color: #0097ae;
 }
 .imp {
-    font-weight: bold;
-    color:black;
+  font-weight: bold;
+  color: black;
 }
-#server >h4 {
-    font-weight: normal;
+#server > h4 {
+  font-weight: normal;
 }
 #server > h3,
 #process > h3 {
@@ -201,39 +190,41 @@
   /* margin-bottom: 5px; */
 }
 #process {
-    padding:10px;
+  padding: 10px;
 }
 #big-three {
-    width:650px;
-    border:4px solid 3a74a5;
-    margin-left:20px;
-    border-top: 4px solid #3a74a5;
-    border-right: 4px solid #3a74a5;
-    border-left: 4px solid #3a74a5;
-    padding: 5px;
+  width: 650px;
+  border: 4px solid 3a74a5;
+  margin-left: 20px;
+  border-top: 4px solid #3a74a5;
+  border-right: 4px solid #3a74a5;
+  border-left: 4px solid #3a74a5;
+  padding: 5px;
 }
-#big-three >img {
-    width: 100px;
+#big-three > img {
+  width: 100px;
 }
-#description{
-    width:450px;
-    margin-left:20px;
+#description {
+  width: 450px;
+  margin-left: 20px;
 }
-#html-pic, #description {
-    display: inline-block;
-    vertical-align: top;
+#html-pic,
+#description {
+  display: inline-block;
+  vertical-align: top;
 }
-#description > h3{
+#description > h3 {
   color: #3a74a5;
-  
-
 }
-#description >p {
-    margin-bottom: 5px;
+#description > p {
+  margin-bottom: 5px;
 }
 #description > a {
-    text-decoration: none;
-    color: lightblue;
+  text-decoration: none;
+  color: lightblue;
 }
-
+.globe {
+    position: relative;
+    top: 20px;
+}
 
